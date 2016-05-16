@@ -17,7 +17,7 @@ namespace SlotDemo.Common
             Assembly assembly = Assembly.GetExecutingAssembly();
             FileVersionInfo fvi = FileVersionInfo.GetVersionInfo(assembly.Location);
             _version = fvi.FileVersion;
-        }
+        } 
 
         public static string Version => _version;
     }
