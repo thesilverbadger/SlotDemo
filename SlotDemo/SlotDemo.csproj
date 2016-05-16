@@ -127,6 +127,10 @@
       <Project>{6b3f005b-1308-4cde-8975-6d9c5d442eb9}</Project>
       <Name>SlotDemo.Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\SlotDemo.Data\SlotDemo.Data.csproj">
+      <Project>{6a842d9d-b6f2-47be-9825-dee7d1421f28}</Project>
+      <Name>SlotDemo.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
