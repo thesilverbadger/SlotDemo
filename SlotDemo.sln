@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlotDemo", "SlotDemo\SlotDe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlotDemo.Common", "SlotDemo.Common\SlotDemo.Common.csproj", "{6B3F005B-1308-4CDE-8975-6D9C5D442EB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlotDemo.Api", "SlotDemo.Api\SlotDemo.Api.csproj", "{AB6D2C88-31A8-4E74-95A4-46262A728CC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6B3F005B-1308-4CDE-8975-6D9C5D442EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B3F005B-1308-4CDE-8975-6D9C5D442EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B3F005B-1308-4CDE-8975-6D9C5D442EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB6D2C88-31A8-4E74-95A4-46262A728CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB6D2C88-31A8-4E74-95A4-46262A728CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB6D2C88-31A8-4E74-95A4-46262A728CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB6D2C88-31A8-4E74-95A4-46262A728CC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
