@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SlotDemo.Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,10 +9,12 @@ namespace SlotDemo.Controllers
 {
     public class BaseController : Controller
     {
-        // GET: Base
-        public ActionResult Index()
+
+        protected override void OnActionExecuted(ActionExecutedContext filterContext)
         {
-            return View();
+            ViewBag.Version = Settings.Version;
+
+            base.OnActionExecuted(filterContext);
         }
     }
 }
