@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SlotDemo.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,6 +12,7 @@ namespace SlotDemo
     {
         protected void Application_Start()
         {
+            Settings.Init();
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
         }
